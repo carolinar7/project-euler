@@ -9,7 +9,7 @@ def is_palindrome(number):
 
 def largest_three_digit_product_palindrone():
   largest_product = 1
-  for i in range(100, 1000):
+  for i in range(1000, 100, -1):
     for j in range(1000, i, -1):
       product = i * j
       if product < largest_product:
